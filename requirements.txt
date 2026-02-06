@@ -1,0 +1,6 @@
+streamlit
+altair
+pillow
+reportlab
+numpy
+pandas
