@@ -25,6 +25,8 @@ Requisitos mantidos:
 - SQLite com migração segura (não quebra banco atual)
 """
 
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 import os
 import json
 import sqlite3
